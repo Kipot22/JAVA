@@ -11,7 +11,7 @@ public class Class1 {
 // в противном случае – false.
     public static boolean method1(int a, int b) {
         int sum = a + b;
-        if (sum >= 10 && sum <= 20) {
+        if ( sum >= 10 && sum <= 20) {
             return true;
         } else return false;
     }
